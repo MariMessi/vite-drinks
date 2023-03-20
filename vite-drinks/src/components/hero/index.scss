@@ -1,0 +1,39 @@
+.Hero{
+    height: 500px;
+    width: 98vw;
+    object-fit: cover;
+    position: relative;
+
+
+    img{
+        height: 400px;
+        width: 98vw;
+        object-fit: cover;
+    }
+
+    &_text {
+        background-color:#f1efee;
+        position: absolute;
+        margin-top: 20px;
+        position: absolute;
+        cursor: pointer;
+        width: 98vw;
+        color:  #4f3637;
+    }
+   ul{
+     list-style-type: none ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 40vw;
+     list-style-type: none;
+    }
+
+   li {
+    cursor: pointer;
+   }
+   li:hover{
+    text-decoration: underline;
+   }
+}
+

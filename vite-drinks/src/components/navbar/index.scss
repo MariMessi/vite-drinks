@@ -1,0 +1,26 @@
+.Navbar{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 22vw;
+    list-style-type: none;
+}
+
+li {
+    color: #f1efee;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+}
+//#f1efee
+//#4f3637
