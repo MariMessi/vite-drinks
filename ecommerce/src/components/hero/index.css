@@ -1,0 +1,13 @@
+.Hero{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 120px;
+  height: 300px;
+  width: 100vw;
+}
+
+.Hero_img{
+  object-fit:cover;
+  width: 100vw;
+}

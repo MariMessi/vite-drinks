@@ -1,0 +1,57 @@
+.Navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    background-color: #81d8d0;
+    z-index: 1;
+}
+
+.Navbar_list{
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    cursor: pointer
+}
+
+.Navbar_list_item:hover{
+    color: aliceblue;
+}
+
+.Navbar_form_Input{
+    padding: 5px;
+    height: 20px;
+    border-radius: 20px;
+    border: 0;
+    margin-bottom: 5px;
+  
+}
+
+
+.Navbar_list_item{
+    cursor: pointer;
+}
+
+.Navbar_Cart{
+    border-radius: 6px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.Navbar_Cart:hover{
+    color: aliceblue;
+
+}
+
+

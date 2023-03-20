@@ -1,0 +1,31 @@
+.Footer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+
+    
+    background-color: #81d8d0;
+}
+
+.Footer_list{
+  padding: 10px;
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  
+}
+
+.Footer_list_item{
+    cursor: pointer;
+}
+
+.Footer_list_item:hover{
+    
+    color: white;
+}
+
+
+
+
+
+

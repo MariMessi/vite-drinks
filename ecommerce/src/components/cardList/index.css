@@ -1,0 +1,16 @@
+.CardList{
+padding: 10px;
+    height: 400px;
+ display: flex;
+ flex-direction: row;
+ gap: 30px;
+ overflow-x: scroll;
+ scroll-behavior: smooth;
+}
+
+.CardList_list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}

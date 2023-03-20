@@ -1,0 +1,28 @@
+.MiniCard{
+
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 14px;
+    border: 1px solid #81d8d0;
+    box-shadow: -3px 3px 10px 1px #81D8D0;
+    cursor: pointer;
+    filter: grayscale(0.70);
+    transition: all0.40s;
+}
+.MiniCard_img{
+    border-radius: 14px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.MiniCard:hover{
+
+    filter: grayscale(0) contrast(1.3);
+    transform: scale(1.1);
+}
+ .MiniCard:active{
+    transform:scale(1.1);
+ }
+
+
