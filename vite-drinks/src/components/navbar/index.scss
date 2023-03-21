@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.Navbar{ 
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $brown-color;
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 22vw;
+    list-style-type: none;
+}
+
+li {
+    color: $white-color;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+}
+//#f1efee
+//#4f3637
