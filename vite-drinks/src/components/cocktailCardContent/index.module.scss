@@ -1,0 +1,8 @@
+@import "../../styles/mixins";
+
+.CocktailCardContent{
+    @include flex-container(row, center, flex-start, 80px, nowrap);
+    overflow-y: scroll;
+    overflow-y: hidden;
+    padding:20px;
+}

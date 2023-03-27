@@ -1,0 +1,48 @@
+@import "../../styles/variables.scss";
+
+.Navbar{ 
+    font-family: $primary-font;
+    font-weight: $first-weight;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 0;
+    width: 97vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $dark-color;
+
+
+ul {
+    display: $list-display;
+    justify-content: space-around;
+    align-items: center;
+    gap:$list-gap;
+    list-style-type: $list-style;
+}
+
+li {
+    color: $white-color;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+button{
+    border-radius: 12px;
+    padding: 4px;
+    border: transparent;
+    cursor: pointer;
+    background-color: $white-color;
+    color: $dark-color;
+    box-shadow: 0 0 4px ( #0000008c);
+    font-family: $primary-font;
+
+    &:hover{
+        background-color: $dark-color;
+        color: $white-color;
+    }
+}
+}

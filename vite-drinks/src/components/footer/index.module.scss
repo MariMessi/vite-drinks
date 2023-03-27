@@ -1,0 +1,34 @@
+@import "../../styles/variables.scss";
+
+.Footer{
+    display: flex;
+    gap: 20px;
+    background-color: $dark-color;
+    align-items: center;
+    margin-bottom: 0px;
+   
+   
+     p {
+        font-family: $primary-font;
+        color: $white-color;
+   }
+
+   ul{
+    color: $white-color;
+    list-style-type: $list-style;
+    display: $list-display;
+    gap: $list-gap;
+
+    li{
+        cursor: pointer; 
+        
+        &:hover{
+        text-decoration: underline;  
+      }
+    }
+
+   
+   }
+
+
+}

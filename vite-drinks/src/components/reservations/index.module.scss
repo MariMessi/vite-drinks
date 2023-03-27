@@ -1,0 +1,58 @@
+@import "../../styles/variables";
+
+
+
+
+
+.reservations{
+  font-family: $primary-font;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: $white-color;
+  z-index: 2;
+ 
+
+ formDiv{
+    z-index: 3;
+    background-color: $dark-color;
+    position: fixed;
+    top:25vh;
+    height: 50vh;
+    width:90;
+    border: 2px solid black;
+    
+
+  }
+  button{
+    background-color: transparent;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+    
+    &:hover{
+      transform: scale(1.5);
+      transition: ease 0.5s;
+   }
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 30px;
+  }
+  input{
+    font-family: $primary-font;
+    border-radius: 20px;
+    border: none;
+  }
+}
+
+
+
+  

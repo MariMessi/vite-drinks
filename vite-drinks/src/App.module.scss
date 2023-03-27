@@ -1,0 +1,16 @@
+@import "./styles/_variables.scss";
+
+.App {
+    top: 0;
+    padding: 20px;
+    background-color: $dark-color;
+    margin-bottom: 30px;
+
+    .sectionTitle{
+        font-family: $primary-font;
+        color: $white-color;
+        background-color: $dark-color;
+        
+    }
+
+}
